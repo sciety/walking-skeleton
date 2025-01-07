@@ -1,3 +1,3 @@
 .PHONY: dev
 dev:
-	echo "not implemented"
+	node index.js
