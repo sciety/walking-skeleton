@@ -1,6 +1,6 @@
 .PHONY: dev
 dev: node_modules
-	node index.js
+	npx tsx index.ts
 
 node_modules: package.json package-lock.json
 	npm install
